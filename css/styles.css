@@ -1253,6 +1253,16 @@ footer p {
 
 
 }
+@media only screen and (min-width: 320px) and (max-width: 427.99px){
+    .modal{
+    max-width: 300px;
+    padding: 72px 8px 8px 8px;
+}
+.input-footer{
+   width: 284px;
+}
+    
+}
 
 .modal-button {
     position: absolute;
