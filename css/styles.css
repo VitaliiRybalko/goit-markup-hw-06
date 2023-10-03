@@ -246,6 +246,18 @@ p {
     margin: 0 auto;
 
 }
+@media screen and (min-width: 320px) and (max-width: 767.99px){
+    .section-hero{
+        padding: 112px 0;
+    }
+}
+@media only screen and (min-width: 320px) and (min-resolution: 192dpi){
+    .section-hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-_mob@2x.jpg); ;
+    }
+}
+
 
 img {
     display: block;
@@ -269,6 +281,13 @@ img {
     margin-left: auto;
     margin-right: auto;
 
+}
+@media screen and (min-width: 320px) and (max-width: 767.99px){
+    .main-title{
+            font-size: 36px;
+            
+            max-width: 320px;
+    }
 }
 
 .button-index {
