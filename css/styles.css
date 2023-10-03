@@ -786,6 +786,15 @@ img {
            
     }
 }
+@media screen and (min-width: 767px) and (max-width: 1157px){
+    .customers-list{
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 24px;
+            row-gap: 72px;
+            padding: 0 108px;
+    }
+}
 
 
 .customers-icon {
@@ -804,6 +813,10 @@ img {
 .icon-list-five{
     width: calc((100% - 16px) / 2);
 }
+}
+@media screen and (min-width: 767px) and (max-width: 1157px){
+    .icon-list-five{
+        width: calc((100% - 48px) / 3)}
 }
 
 
