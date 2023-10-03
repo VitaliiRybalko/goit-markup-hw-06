@@ -80,6 +80,13 @@ p {
         display: none;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1157px){
+    .header-list{
+        display:flex;
+    }
+    
+}
     
 
 
@@ -228,12 +235,39 @@ p {
 .address {
     font-style: normal;
     margin-left: auto;
-
+   
 }
 @media screen and (min-width:320px) and (max-width:767.99px) {
     .address {
         display: none;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .site-address {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        
+        justify-content: center;
+    }
+    .address-link{
+        padding: 0;
+
+
+    }
+    .header-container{
+        align-items: center;
+    }
+    .logo{
+        margin-right: 120px;
+    }
+    .address a{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+
+
 }
 
 .address a:hover,
