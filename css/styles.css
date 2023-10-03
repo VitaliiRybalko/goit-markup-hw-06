@@ -1258,10 +1258,13 @@ footer p {
     max-width: 300px;
     padding: 72px 8px 8px 8px;
 }
-.input-footer{
-   width: 284px;
-}
+
     
+}
+@media only screen and (min-width: 320px) and (max-width: 427.99px){
+.form-input-box{
+    width: 100%;
+}
 }
 
 .modal-button {
@@ -1325,7 +1328,8 @@ footer p {
 
 .box-input {
     padding: 11px 16px 11px 38px;
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     position: relative;
     border-radius: 4px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
@@ -1333,10 +1337,6 @@ footer p {
     height: 40px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
-
-
-
-
 }
 
 .form-input-box {
@@ -1549,6 +1549,7 @@ footer p {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    width: 100%;
 
 
 
