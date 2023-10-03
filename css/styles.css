@@ -1630,25 +1630,59 @@ color: var(--NAVY-BLUE, #2E2F42);
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin: 0;
     margin-bottom: 48px;
+    padding: 0;
  }
- .mobile-address-item{
-    color: var(--IRIS, #4D5AE5);
-   font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
- }
+ 
+ 
  .mobile-tel-item{
    
-        font-size: 20px;
+      
+ }
+ .link{
+    text-decoration: none;
+ }
+ .grey{
+    color: var(--SLATE, #434455);
+    
+    font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
  }
+ .blue{
+    color: var(--IRIS, #4D5AE5);
+       
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+       
+ }
+ .mobile-sm-list{
+    display: flex;
+    gap: 56px;
+   
+ }
+.mobile-sm-link{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--iris);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.mobile-sm-icon{
+    fill: white;
+}
 
 
 
